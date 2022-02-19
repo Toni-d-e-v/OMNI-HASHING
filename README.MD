@@ -15,4 +15,3 @@ And at the end string is rotated by first by array size.
 ```
 f726c643132335457747b7b7e2f667e817b734041426357747b7b7e2f667e817b734041426366838a48656c6c6f20576
 ```
-### As we see its not TOTALY difrent but small project to hash small strings
