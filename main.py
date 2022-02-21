@@ -1,5 +1,5 @@
 # OMNI HASH ALOGRITHM
-# Simple 32 bit hash algorithm, 
+# Simple 48 byte hash algorithm, 
 # Author: Toni Dumancic
 # Version: 1.0
 
@@ -9,7 +9,7 @@ def rot(text,size):
     text = list(text)
     new_text = []
     for i in range(0, len(text)):
-        new_text.append(text[(i+size)%len(text)])
+        new_text.append(text[(i+size)%len(size)])
     new_text = ''.join(new_text)
     return new_text
 def hash_function(string):
